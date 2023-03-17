@@ -1,0 +1,19 @@
+body {
+  background-color: #131518;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-area {
+  height: 398px;
+  width: 412px;
+  box-sizing: border-box;
+  padding: 32px;
+  background-color: #232a34;
+  border-radius: 30px;
+}

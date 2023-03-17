@@ -1,0 +1,73 @@
+.rating-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #262e38;
+  border-radius: 100%;
+}
+
+.product-rating-info h1 {
+  color: white;
+	margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.product-rating-info p {
+  color: #969fad;
+  margin-top: 7px;
+	margin-bottom: 24px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-btn {
+  width: 51px;
+  height: 51px;
+  background-color: #262e38;
+  border: none;
+  border-radius: 100%;
+  color: #7c8798;
+  cursor: pointer;
+}
+
+.rating-btn:active{
+	color: white;
+	background-color: #fc7614;
+}
+
+.rating-btn:focus{
+	color: white;
+	background-color: #fc7614;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.submit-btn button {
+  width: 341px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: none;
+  color: white;
+  background: #fc7614;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.submit-btn:active button{
+	color: #fc7614;
+	background-color: white;
+}
